@@ -1,14 +1,14 @@
 {
-  "name": "homebridge-weather",
-  "version": "1.3.4",
-  "description": "A homebridge temperature sensor for displaying the weather at your current location.",
+  "name": "homebridge-microbit",
+  "version": "1.0.0",
+  "description": "A homebridge microbit door sensor",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/werthdavid/homebridge-weather.git"
+    "url": "git+https://github.com/ferrygun/homebridge-microbit.git"
   },
   "engines": {
     "homebridge": ">=0.2.0",
@@ -16,15 +16,14 @@
   },
   "keywords": [
     "homebridge-plugin",
-    "weather",
-    "openweathermap"
+    "microbit"
   ],
-  "author": "David Werth <werth.david@gmail.com>",
+  "author": "Ferry Djaja <ferrygun@yahoo.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/werthdavid/homebridge-weather/issues"
+    "url": "https://github.com/ferrygun/homebridge-microbit/issues"
   },
-  "homepage": "https://github.com/werthdavid/homebridge-weather#readme",
+  "homepage": "https://github.com/ferrygun/homebridge-microbit#readme",
   "dependencies": {
     "request": "^2.65.0"
   }
