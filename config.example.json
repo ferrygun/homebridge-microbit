@@ -5,27 +5,11 @@
     "port":51826,
     "pin":"012-34-567"
   },
-  "description":"Homebridge Example",
+  "description":"microbit with Siri",
   "accessories":[
     {
-      "accessory":"Weather",
-      "apikey":"YOUR_KEY_HERE",
-      "locationByCoordinates": "lat=48.70798341&lon=9.17019367",
-      "name":"Current"
-    },
-    {
-      "accessory":"Weather",
-      "apikey":"YOUR_KEY_HERE",
-      "locationByCoordinates":"lat=48.70798341&lon=9.17019367",
-      "name":"Today Min",
-      "type":"min"
-    },
-    {
-      "accessory":"Weather",
-      "apikey":"YOUR_KEY_HERE",
-      "locationByCoordinates":"lat=48.70798341&lon=9.17019367",
-      "name":"Today Max",
-      "type":"max"
+      "accessory":"microbit",
+      "name":"Door"
     }
   ]
 }
